@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO Web Application | Minor Project</title>
+  <meta name="description"
+    content="A web application for SEO analysis: keyword checks, meta tag validation, and performance insights." />
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="https://cdn-icons-png.flaticon.com/512/1087/1087927.png" alt="SEO Web App Logo" class="logo">
+      <h1>SEO Web Application</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#tools">Tools</a></li>
+        <li><a href="#how">How It Works</a></li>
+        <li><a href="#abstract">Abstract</a></li>
+        <li><a href="#team">Team</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-content">
+      <div class="text">
+        <h2><i class="fa-solid fa-chart-line"></i> Improve Your SEO Performance</h2>
+        <p>Analyze your website with powerful SEO tools — keyword ranking, meta tags, page speed, and mobile optimization.</p>
+        <button id="startToolsBtn"><i class="fa-solid fa-rocket"></i> Get Started</button>
+      </div>
+      <div class="image">
+        <img src="https://cdn-icons-png.flaticon.com/512/1087/1087927.png" alt="SEO Illustration">
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features">
+    <h2>Key Features</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <i class="fa-solid fa-key"></i>
+        <h3>Keyword Analyzer</h3>
+        <p>Discover how your keywords perform and improve your search ranking.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fa-solid fa-tags"></i>
+        <h3>Meta Tag Validator</h3>
+        <p>Validate meta titles, descriptions, and improve your site visibility.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fa-solid fa-gauge-high"></i>
+        <h3>Page Speed Insights</h3>
+        <p>Optimize your page load time for a better user experience.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fa-solid fa-mobile-screen"></i>
+        <h3>Mobile Optimization</h3>
+        <p>Ensure your website looks great and loads fast on all devices.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section id="tools">
+    <h2>SEO Tools Dashboard</h2>
+    <div class="tool-grid">
+      <div class="tool">
+        <h3><i class="fa-solid fa-key"></i> Keyword Checker</h3>
+        <input type="text" id="keywordInput" placeholder="Enter keyword(s)" />
+        <button id="checkKeywordBtn">Check</button>
+      </div>
+      <div class="tool">
+        <h3><i class="fa-solid fa-code"></i> Meta Tag Validator</h3>
+        <input type="url" id="pageUrlInput" placeholder="Enter page URL" />
+        <button id="validateMetaBtn">Validate</button>
+      </div>
+      <div class="tool">
+        <h3><i class="fa-solid fa-tachometer-alt"></i> Page Speed Analyzer</h3>
+        <input type="url" id="speedUrlInput" placeholder="Enter page URL" />
+        <button id="speedCheckBtn">Analyze</button>
+      </div>
+    </div>
+    <div id="toolResults"></div>
+  </section>
+
+ <section id="how">
+  <h2>How It Works</h2>
+  <div class="how-grid">
+    <div class="step" data-step="1">
+      <i class="fa-solid fa-user"></i>
+      <h3>Enter Your Website</h3>
+      <p>Provide your website URL to start the SEO analysis process.</p>
+    </div>
+    <div class="step" data-step="2">
+      <i class="fa-solid fa-magnifying-glass-chart"></i>
+      <h3>Run SEO Scan</h3>
+      <p>Our engine instantly analyzes your site’s SEO metrics and performance.</p>
+    </div>
+    <div class="step" data-step="3">
+      <i class="fa-solid fa-chart-pie"></i>
+      <h3>Get Results</h3>
+      <p>Receive a complete SEO report with score and improvement suggestions.</p>
+    </div>
+  </div>
+</section>
+
+
+  <!-- TESTIMONIALS CAROUSEL -->
+  <section id="testimonials">
+    <h2>User Feedback</h2>
+    <div class="testimonial-container">
+      <button class="arrow left"><i class="fa-solid fa-chevron-left"></i></button>
+      <div class="testimonial-slide">
+        <div class="testimonial active">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User 1">
+          <p>“This SEO tool helped me find errors on my site and improve my Google ranking.”</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <h4>- Rahul Verma</h4>
+        </div>
+        <div class="testimonial">
+          <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="User 2">
+          <p>“Easy to use, accurate reports, and beautiful interface — highly recommend it!”</p>
+          <div class="stars">⭐⭐⭐⭐</div>
+          <h4>- Neha Sharma</h4>
+        </div>
+        <div class="testimonial">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="User 3">
+          <p>“A perfect tool for students and startups learning SEO effectively.”</p>
+          <div class="stars">⭐⭐⭐⭐⭐</div>
+          <h4>- Aman Tiwari</h4>
+        </div>
+      </div>
+      <button class="arrow right"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+ <section id="team">
+  <h2>Meet Our Project Team</h2>
+  <p class="team-intro">
+    Our dedicated and talented team developed this SEO Web Application under expert guidance.
+  </p>
+
+  <div class="team-grid">
+    <div class="team-member">
+      <img src="https://randomuser.me/api/portraits/men/31.jpg" alt="Vivek Kumar">
+      <h3>Vivek Kumar</h3>
+      <p class="role">Backend Developer</p>
+      <p class="roll">Roll No: 0115CS221144</p>
+    </div>
+
+    <div class="team-member">
+      <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Aman Abhishek Mishra">
+      <h3>Aman Mishra</h3>
+      <p class="role">Frontend Developer</p>
+      <p class="roll">Roll No: 0115CS221068</p>
+    </div>
+
+    <div class="team-member">
+      <img src="https://randomuser.me/api/portraits/men/72.jpg" alt="Aditya Dwivedi">
+      <h3>Aditya Dwivedi</h3>
+      <p class="role">Database Engineer</p>
+      <p class="roll">Roll No: 0115CS221013</p>
+    </div>
+
+    <div class="team-member guide">
+      <img src="https://randomuser.me/api/portraits/men/18.jpg" alt="Anurag Shrivastava">
+      <h3>Anurag Shrivastava</h3>
+      <p class="role">Project Guide</p>
+      <p class="roll">Assistant Professor, NIIST Bhopal</p>
+    </div>
+  </div>
+</section>
+
+
+  <footer>
+    <p>&copy; 2025 NIIST Bhopal | Department of Computer Science & Engineering</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+</html>
